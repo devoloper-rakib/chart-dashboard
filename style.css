@@ -38,6 +38,10 @@
 	width: 4px;
 }
 
+body {
+	user-select: none;
+}
+
 /* dark theme variable */
 .dark-theme {
 	--color-white: #131316;
