@@ -27,6 +27,17 @@
 	--border-radius-2: 6px;
 }
 
+/* custom scrollbar  */
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-purple);
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
 /* dark theme variable */
 .dark-theme {
 	--color-white: #131316;
@@ -382,7 +393,7 @@ main section.middle .cards .card {
 	justify-content: space-between;
 	box-shadow: 0 2rem 3rem var(--color-danger-light);
 	transition: all 300ms ease;
-	min-width: 22rem; /* **  will have problem if not giving minium width */
+	/* min-width: 22rem; **  will have problem if not giving minium width */
 }
 
 main section.middle .cards .card:nth-child(2) {
